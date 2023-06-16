@@ -1,0 +1,35 @@
+@use './partials/variables' as *;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: $secondaryFontColor;
+}
+
+.flex{
+    display: flex;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
